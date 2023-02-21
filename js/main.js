@@ -26,4 +26,6 @@ const password = nomeDellapersona + cognomeDellapersona + coloreDellapersona + n
 
 console.log(password)
 
+document.getElementById('password').innerHTML = `La tua password è ${password}`;
+
 
