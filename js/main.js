@@ -18,3 +18,12 @@ const cognomeDellapersona = prompt('inserisci il tuo cognome');
 
 
 let coloreDellapersona = prompt('inserisci il tuo colore preferito');
+
+
+const numeroDellapersona = parseInt('23')
+
+const password = nomeDellapersona + cognomeDellapersona + coloreDellapersona + numeroDellapersona;
+
+console.log(password)
+
+
